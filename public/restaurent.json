@@ -1,0 +1,285 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "The Gourmet Kitchen",
+        "image": "https://i.postimg.cc/XN2g1y0W/download-1.jpg",
+        "address": "123 Main St, New York, NY",
+        "cuisine": "Italian",
+        "operating_hours": {
+          "monday": "10:00 AM - 10:00 PM",
+          "tuesday": "10:00 AM - 10:00 PM",
+          "wednesday": "10:00 AM - 10:00 PM",
+          "thursday": "10:00 AM - 10:00 PM",
+          "friday": "10:00 AM - 11:00 PM",
+          "saturday": "10:00 AM - 11:00 PM",
+          "sunday": "11:00 AM - 9:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "John Doe",
+            "rating": 4.5,
+            "comment": "Amazing food and great atmosphere!"
+          },
+          {
+            "reviewer": "Jane Smith",
+            "rating": 4.0,
+            "comment": "Lovely Italian dishes, a bit pricey though."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Sushi Palace",
+        "image": "https://i.postimg.cc/4dbkzQKp/download-6.jpg",
+        "address": "456 Elm St, San Francisco, CA",
+        "cuisine": "Japanese",
+        "operating_hours": {
+          "monday": "11:00 AM - 9:30 PM",
+          "tuesday": "11:00 AM - 9:30 PM",
+          "wednesday": "11:00 AM - 9:30 PM",
+          "thursday": "11:00 AM - 10:00 PM",
+          "friday": "11:00 AM - 10:30 PM",
+          "saturday": "11:00 AM - 10:30 PM",
+          "sunday": "12:00 PM - 9:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Emily Johnson",
+            "rating": 4.7,
+            "comment": "Best sushi in town, fresh and flavorful!"
+          },
+          {
+            "reviewer": "Michael Lee",
+            "rating": 4.3,
+            "comment": "Good sushi but the service was slow."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Taco Fiesta",
+        "image": "https://i.postimg.cc/44Bmz6R6/download-3.jpg",
+        "address": "789 Pine St, Austin, TX",
+        "cuisine": "Mexican",
+        "operating_hours": {
+          "monday": "9:00 AM - 8:00 PM",
+          "tuesday": "9:00 AM - 8:00 PM",
+          "wednesday": "9:00 AM - 8:00 PM",
+          "thursday": "9:00 AM - 9:00 PM",
+          "friday": "9:00 AM - 9:00 PM",
+          "saturday": "10:00 AM - 9:00 PM",
+          "sunday": "10:00 AM - 7:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Carlos Mendez",
+            "rating": 4.8,
+            "comment": "Authentic tacos, great flavor!"
+          },
+          {
+            "reviewer": "Samantha Brown",
+            "rating": 4.2,
+            "comment": "Good tacos but portions are a bit small."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Curry House",
+        "image": "https://i.postimg.cc/mgdzB78Z/download-2.jpg",
+        "address": "321 Oak St, Chicago, IL",
+        "cuisine": "Indian",
+        "operating_hours": {
+          "monday": "10:30 AM - 10:00 PM",
+          "tuesday": "10:30 AM - 10:00 PM",
+          "wednesday": "10:30 AM - 10:00 PM",
+          "thursday": "10:30 AM - 10:30 PM",
+          "friday": "10:30 AM - 11:00 PM",
+          "saturday": "11:00 AM - 11:00 PM",
+          "sunday": "12:00 PM - 9:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Priya Patel",
+            "rating": 4.6,
+            "comment": "Delicious curries, just like homemade!"
+          },
+          {
+            "reviewer": "James Wilson",
+            "rating": 4.4,
+            "comment": "Great Indian food, a little too spicy for me."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "BBQ Haven",
+        "image": "https://i.postimg.cc/c1Pk6K4d/download-5.jpg",
+        "address": "654 Cedar St, Houston, TX",
+        "cuisine": "American",
+        "operating_hours": {
+          "monday": "11:00 AM - 9:00 PM",
+          "tuesday": "11:00 AM - 9:00 PM",
+          "wednesday": "11:00 AM - 9:00 PM",
+          "thursday": "11:00 AM - 10:00 PM",
+          "friday": "11:00 AM - 10:30 PM",
+          "saturday": "11:00 AM - 10:30 PM",
+          "sunday": "12:00 PM - 8:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Chris Martinez",
+            "rating": 4.2,
+            "comment": "Good BBQ, but I’ve had better."
+          },
+          {
+            "reviewer": "Sandra Collins",
+            "rating": 4.5,
+            "comment": "Great atmosphere and fantastic BBQ!"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vegan Delights",
+        "image": "https://i.postimg.cc/VkLyXt1C/download-4.jpg",
+        "address": "987 Birch St, Portland, OR",
+        "cuisine": "Vegan",
+        "operating_hours": {
+          "monday": "10:00 AM - 8:30 PM",
+          "tuesday": "10:00 AM - 8:30 PM",
+          "wednesday": "10:00 AM - 8:30 PM",
+          "thursday": "10:00 AM - 9:00 PM",
+          "friday": "10:00 AM - 9:30 PM",
+          "saturday": "10:00 AM - 9:30 PM",
+          "sunday": "11:00 AM - 8:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Linda Green",
+            "rating": 4.8,
+            "comment": "Best vegan restaurant I’ve been to!"
+          },
+          {
+            "reviewer": "Daniel Garcia",
+            "rating": 4.7,
+            "comment": "Great selection of vegan dishes."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Pasta Paradise",
+        "image": "https://i.postimg.cc/d336DYgk/images.jpg",
+        "address": "159 Maple St, Los Angeles, CA",
+        "cuisine": "Italian",
+        "operating_hours": {
+          "monday": "11:30 AM - 9:30 PM",
+          "tuesday": "11:30 AM - 9:30 PM",
+          "wednesday": "11:30 AM - 9:30 PM",
+          "thursday": "11:30 AM - 10:00 PM",
+          "friday": "11:30 AM - 10:30 PM",
+          "saturday": "12:00 PM - 10:30 PM",
+          "sunday": "12:00 PM - 9:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Olivia Roberts",
+            "rating": 4.4,
+            "comment": "Wonderful pasta dishes, highly recommend."
+          },
+          {
+            "reviewer": "John Carter",
+            "rating": 4.1,
+            "comment": "Nice place but the service could improve."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Dim Sum Delight",
+        "image": "https://i.postimg.cc/wjjqvbBK/download-8.jpg",
+        "address": "753 Willow St, Seattle, WA",
+        "cuisine": "Chinese",
+        "operating_hours": {
+          "monday": "10:00 AM - 9:00 PM",
+          "tuesday": "10:00 AM - 9:00 PM",
+          "wednesday": "10:00 AM - 9:00 PM",
+          "thursday": "10:00 AM - 9:30 PM",
+          "friday": "10:00 AM - 10:00 PM",
+          "saturday": "10:00 AM - 10:00 PM",
+          "sunday": "11:00 AM - 8:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Wei Chen",
+            "rating": 4.6,
+            "comment": "Delicious dim sum, very authentic!"
+          },
+          {
+            "reviewer": "Jessica Adams",
+            "rating": 4.3,
+            "comment": "Good food but a bit crowded."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Mediterranean Bistro",
+        "image": "https://i.postimg.cc/G2JJX2ns/download.jpg",
+        "address": "951 Palm St, Miami, FL",
+        "cuisine": "Mediterranean",
+        "operating_hours": {
+          "monday": "11:00 AM - 9:00 PM",
+          "tuesday": "11:00 AM - 9:00 PM",
+          "wednesday": "11:00 AM - 9:00 PM",
+          "thursday": "11:00 AM - 10:00 PM",
+          "friday": "11:00 AM - 10:30 PM",
+          "saturday": "12:00 PM - 10:30 PM",
+          "sunday": "12:00 PM - 8:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Sophia Lopez",
+            "rating": 4.5,
+            "comment": "Amazing Mediterranean dishes, will come back!"
+          },
+          {
+            "reviewer": "Liam Taylor",
+            "rating": 4.3,
+            "comment": "Good food but a bit expensive."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "French Finesse",
+        "image": "https://i.postimg.cc/gJd2HcK5/download-7.jpg",
+        "address": "357 Ash St, Boston, MA",
+        "cuisine": "French",
+        "operating_hours": {
+          "monday": "12:00 PM - 10:00 PM",
+          "tuesday": "12:00 PM - 10:00 PM",
+          "wednesday": "12:00 PM - 10:00 PM",
+          "thursday": "12:00 PM - 10:30 PM",
+          "friday": "12:00 PM - 11:00 PM",
+          "saturday": "12:00 PM - 11:00 PM",
+          "sunday": "12:00 PM - 9:00 PM"
+        },
+        "reviews": [
+          {
+            "reviewer": "Charlotte Evans",
+            "rating": 4.9,
+            "comment": "Elegant dining and exquisite French cuisine."
+          },
+          {
+            "reviewer": "Henry Walker",
+            "rating": 4.7,
+            "comment": "Top-notch food and service, loved it!"
+          }
+        ]
+      }
+    ]
+  }
+  
