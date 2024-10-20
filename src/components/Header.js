@@ -9,7 +9,7 @@ function Header() {
     <div>
         <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src="https://i.postimg.cc/7Y3shRyP/images.png"

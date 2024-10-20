@@ -19,7 +19,7 @@ function Restaurents() {
         }
        )
     }
-    console.log(restaurentlist);
+   // console.log(restaurentlist);
   
    useEffect(()=>{
        fetchData()
