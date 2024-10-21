@@ -1,42 +1,44 @@
-import {React, useEffect, useState} from 'react';
+import {React, useEffect, useState, } from 'react';
 import { useParams } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Review from './Review';
 import Operatingtime from './Operatingtime';
+import {useSelector} from 'react-redux';
 
 
 function Restview() {
 
 
   //create a state to hold the data from api
-  var [viewrestaurent, setrestaurent]=useState([])
+  //var [viewrestaurent, setrestaurent]=useState([])
  
  
   //function call
-  const fetchRest=async()=>{
-     const result= await fetch('/restaurent.json')
-     result.json().then(data=>{
-        setrestaurent(data.restaurants)
-     })
-  }
+  //const fetchRest=async()=>{
+    // const result= await fetch('/restaurent.json')
+     //result.json().then(data=>{
+       // setrestaurent(data.restaurants)
+     //})
+  //}
+   //const params=useParams()
 
+   // find the detailes of the restaurent selected
+  // const selectedRestaurent=viewrestaurent.find(item=>item.id == params.id)
+   //console.log(selectedRestaurent);
+
+
+//REDUX
   const params=useParams()
-  //console.log(params.id);
-  // console.log(viewrestaurent);
-
-
-// find the detailes of the restaurent selected
-    const selectedRestaurent= viewrestaurent.find(item=>item.id == params.id)
-   console.log(selectedRestaurent);
-
-
+  useEffect(()=>{         
+      },[])
  
-  useEffect(()=>{
-           fetchRest()
-  },[])
+  const {restaurentlist}=useSelector(state=>state.restaurentReducer)
 
+  // find the detailes of the restaurent selected
+    const selectedRestaurent=restaurentlist.find(item=>item.id == params.id)
+    console.log(selectedRestaurent);
 
 
   return (
@@ -67,7 +69,7 @@ function Restview() {
            
        </Col>
     </Row>):""
-  
+     
     }
   </>
   )
